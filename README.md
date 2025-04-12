@@ -1,5 +1,3 @@
-# papyrus-lua-quest-system
-Modular Lua-based quest and dialog system inspired by Papyrus, for the Godot Engine.
 # Papyrus-to-Lua Quest and Dialog System
 
 This project implements a flexible and moddable quest and dialog system for the Godot game engine using Lua as the scripting language. It provides a modern alternative to Bethesda's Papyrus scripting language, with a planned converter for existing `.psc` files and a powerful Lua-based runtime that supports quests, branching dialogs, and in-game consequences.
@@ -22,6 +20,19 @@ Bethesda's Papyrus scripting language powers iconic RPGs like Skyrim and Fallout
 - Enable easy quest logic and dialog design
 - Support decision-based gameplay mechanics
 - Run entirely inside the Godot Engine
+- **Go beyond the limitations of traditional Papyrus AI scripting** by introducing behavioral reasoning and mood-driven responses instead of rigid kill-centric quests.
+
+### Rethinking NPC Behavior
+
+Many quests in modern RPGs rely on scripted behavior and combat-driven objectives. This project aims to encourage more nuanced and emergent gameplay by:
+
+- Defining **actor moods and internal states**
+- Allowing NPCs to respond dynamically to situations, not just scripted triggers
+- Enabling **non-violent resolutions** and quest branches
+- Modeling behaviors like fear, suspicion, trust, or motivation in lightweight systems
+- Moving from scripted outcomes to behavior-based goals
+
+This enables quest writers to design missions where empathy, intimidation, persuasion, or deception are valid approaches — not just combat.
 
 ---
 
@@ -125,6 +136,7 @@ This dialog system supports:
 - Papyrus-style class and event handling
 - Branching story logic with consequences
 - Extendable with custom game logic
+- Behavior-driven design potential (actor states, motives, emergent outcomes)
 - Can load from Lua or external formats (JSON planned)
 
 ---
@@ -136,6 +148,7 @@ This dialog system supports:
 - Graph-based dialog editor (future)
 - Condition-based dialog options
 - Visual quest debugger
+- Actor behavior and state system (mood, traits, attitude)
 
 ---
 
@@ -151,7 +164,9 @@ If you're interested in:
 - Translating `.psc` files
 - Improving Lua runtime architecture
 - UI systems in Godot
-- Building a full game based on this
+- Building behavior-rich NPC interactions
+- Creating non-violent and multi-path quests
 
 Feel free to fork, contribute or open issues!
+
 
