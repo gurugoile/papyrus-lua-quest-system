@@ -1,0 +1,1 @@
+-- Example quest: The Lost Ring

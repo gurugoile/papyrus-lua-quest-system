@@ -1,1 +1,3 @@
--- Quest system
+-- Quest base module
+local Quest = {}
+return Quest
